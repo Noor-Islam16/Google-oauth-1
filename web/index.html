@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css" class="style">
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form action="/login" method="POST">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="noor islam" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="*******" required>
+        </div>
+        <div class="form-group">
+            <button type="submit"><a href="http://localhost:3000/" style="color: aliceblue; text-decoration: none;">Login</a></button>
+        </div>
+    </form>
+    <p>--------- OR ---------</p>
+    <button><a href="http://localhost:3000/auth/google">Login with google</a></button>
+</body>
+</html>
