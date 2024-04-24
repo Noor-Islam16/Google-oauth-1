@@ -1,0 +1,10 @@
+.content{
+    display: flex;
+    justify-content: center;
+}
+.leftSection{
+    background-color: red;
+}
+.rightSection{
+    background-color: blue;
+}
