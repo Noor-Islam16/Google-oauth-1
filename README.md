@@ -1,5 +1,5 @@
 # Backend Revision
 
-. Google oauth
-. UI
-. Chatbot
+1. Google oauth
+2. UI
+3. Chatbot
